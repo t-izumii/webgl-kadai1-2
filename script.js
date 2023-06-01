@@ -32,7 +32,7 @@ class App3 {
       // カメラの位置
       x: 0.0,
       y: 0.0,
-      z: 800.0,
+      z: 100.0,
       // カメラの中止点
       lookAt: new THREE.Vector3(0.0, 0.0, 0.0),
     };
@@ -165,8 +165,8 @@ class App3 {
 
 
    // マテリアル
-  const BOX_ROW = 448;
-  const BOX_COL = 602;
+  const BOX_ROW = 74;
+  const BOX_COL = 100;
   const BOX_SIZE = 1.0;
   const gridWidth = BOX_ROW * BOX_SIZE;
   const gridHeight = BOX_COL * BOX_SIZE;
@@ -217,4 +217,5 @@ class App3 {
     this.renderer.render(this.scene, this.camera);
   }
 }
+
 
